@@ -55,7 +55,13 @@ To set up the environment for the hotel receptionist agent, follow these steps:
     ```bash
     poetry --version
 
-7. **Set the PYTHONPATH**:
+7. **Install Dependencies with Poetry**:  
+    Once Poetry is installed, you can install all project dependencies specified in the `pyproject.toml` file by running:
+    ```bash
+    poetry install
+    ```
+
+8. **Set the PYTHONPATH**:
     To ensure your project can be found by Python, add the project path to your PYTHONPATH environment variable. You can do this by adding the following line to your shell configuration file:
     ```bash
     export PYTHONPATH=$PYTHONPATH:/path/to/your/project/root
