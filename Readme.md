@@ -60,3 +60,15 @@ To set up the environment for the hotel receptionist agent, follow these steps:
     ```bash
     export PYTHONPATH=$PYTHONPATH:/path/to/your/project/root
     ```
+
+
+**Project Structure** 
+1. **src/**: Contains the main source code for the hotel receptionist agent.
+2. **agent/**: Contains the primary agent logic and functionality for handling user interactions and processing requests.
+3. **tools/**: Includes utility functions and helper classes that assist the main agent in performing tasks efficiently.
+4. **main.py**: The entry point of the application that initializes the agent and starts the interaction with users.
+5. **tests/**: Includes unit tests and integration tests to ensure code quality and functionality.
+6. **venv/**: The virtual environment directory where dependencies are installed.
+7. **README.md**: Provides an overview of the project, installation instructions, and usage guidelines.
+8. **pyproject.toml**: Configuration file for managing project dependencies and settings with Poetry.
+9. **.gitignore**: Specifies files and directories that should be ignored by Git version control.
