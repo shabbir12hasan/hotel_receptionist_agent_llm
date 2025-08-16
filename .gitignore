@@ -8,3 +8,6 @@ settings.json
 
 # python cache files
 __pycache__
+
+# removing analysis folder from git commit
+analysis/*
