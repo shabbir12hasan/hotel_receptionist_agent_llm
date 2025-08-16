@@ -46,5 +46,5 @@ def setup_vector_database(
 
     print("Vector database populated successfully with company data.")
 
-
-setup_vector_database()
+if __name__ == "__main__":
+    setup_vector_database()
